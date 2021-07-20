@@ -1,12 +1,19 @@
 "use strict";
 
-import React from "react";
-import ReactDOM from "react-dom";
-import logo from "./images/loaders.png";
-import { common } from "../../common";
-import { a } from "./tree-shaking";
-import largerNumber from "larger-number";
-import "./search.less";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import logo from "../../../../images/loaders.png";
+// import { common } from "../../common";
+// import { a } from "./tree-shaking";
+// import largerNumber from "larger-number";
+// import "./search.less";
+
+const React = require("react");
+const largerNumber = require("larger-number");
+const logo = require("./images/loaders.png").default;
+const { common } = require("../../common");
+const { a } = require("./tree-shaking");
+require("./search.less");
 
 class App extends React.Component {
   constructor(props) {
@@ -39,4 +46,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+module.exports = <App />;

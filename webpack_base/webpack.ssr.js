@@ -8,36 +8,35 @@ const OptimizeCss = require("optimize-css-assets-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackExternalPlugin = require("html-webpack-externals-plugin");
-const { StatsWriterPlugin } = require("webpack-stats-plugin");
-const FriendlyPlugin = require("friendly-errors-webpack-plugin");
 const setMPA = () => {
   const entry = {};
   const htmlWebpackPlugin = [];
-  const entryFiles = glob.sync(path.join(__dirname, "./src/*/index.js"));
+  const entryFiles = glob.sync(path.join(__dirname, "./src/*/index-serve.js"));
 
   Object.keys(entryFiles).map((index) => {
     const entryFile = entryFiles[index];
     // 正则匹配
-    const match = entryFile.match(/src\/(.*)\/index\.js/);
+    const match = entryFile.match(/src\/(.*)\/index-serve\.js/);
     const pageName = match && match[1];
     entry[pageName] = entryFile;
-    htmlWebpackPlugin.push(
-      new HtmlWebpackPlugin({
-        template: path.join(__dirname, `src/${pageName}/index.html`),
-        filename: `${pageName}.html`,
-        inject: true,
-        chunks: ["common", "vendors", pageName],
-        minify: {
-          html5: true,
-          collapseWhitespace: true,
-          preserveLineBreaks: false,
-          minifyCSS: true,
-          minifyJS: true,
-          removeComments: false,
-        },
-        // process,
-      })
-    );
+    if (pageName) {
+      htmlWebpackPlugin.push(
+        new HtmlWebpackPlugin({
+          template: path.join(__dirname, `src/${pageName}/index.html`),
+          filename: `${pageName}.html`,
+          inject: true,
+          chunks: ["common", "vendors", pageName],
+          minify: {
+            html5: true,
+            collapseWhitespace: true,
+            preserveLineBreaks: false,
+            minifyCSS: true,
+            minifyJS: true,
+            removeComments: false,
+          },
+        })
+      );
+    }
   });
   return {
     entry,
@@ -50,7 +49,9 @@ module.exports = {
   entry: entry, // 单入口位字符串  多入口为对象  键值对写入
   output: {
     path: path.join(__dirname, "dist"), // 输出文件夹  dist目录
-    filename: "[name]_[chunkhash:8].js", // 打包后的文件名
+    filename: "[name]-serve.js", // 打包后的文件名
+    libraryTarget: "umd",
+    publicPath: "./",
   },
   mode: "production",
   module: {
@@ -142,13 +143,6 @@ module.exports = {
     //     },
     //   ],
     // }),
-    new StatsWriterPlugin({
-      stats: {
-        all: false,
-        assets: true,
-      },
-    }),
-    new FriendlyPlugin()
   ].concat(htmlWebpackPlugin),
   devtool: "inline-source-map",
   optimization: {
