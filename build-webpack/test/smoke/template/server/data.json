@@ -1,0 +1,277 @@
+{
+  "error": {},
+  "extra": {},
+  "data": [
+    {
+      "list": [
+        {
+          "id": 7274,
+          "redirect_param": "time://nativeWebView?url=https://time.geekbang.org/learning/path-detail/1&canHiddenNavigationBarBackgroundView=1",
+          "name": "Java工程师",
+          "icon": "https://static001.geekbang.org/resource/image/ee/9d/ee4e027522f8f7144b12bcd3d8f6b29d.jpg",
+          "product_count": 22,
+          "redirect_vars": {
+            "path_id": 1
+          },
+          "redirect_type": "urlscheme",
+          "score": 173381560961,
+          "total_sub_count": 382652
+        },
+        {
+          "id": 7275,
+          "redirect_param": "time://nativeWebView?url=https://time.geekbang.org/learning/path-detail/5&canHiddenNavigationBarBackgroundView=1",
+          "name": "架构师",
+          "icon": "https://static001.geekbang.org/resource/image/30/36/304bfd86dea2698cd6c8147ee8f63c36.jpg",
+          "product_count": 23,
+          "redirect_vars": {
+            "path_id": 5
+          },
+          "redirect_type": "urlscheme",
+          "score": 130431888018,
+          "total_sub_count": 460844
+        },
+        {
+          "id": 7273,
+          "redirect_param": "time://nativeWebView?url=https://time.geekbang.org/learning/path-detail/3&canHiddenNavigationBarBackgroundView=1",
+          "name": "计算机基础知识",
+          "icon": "https://static001.geekbang.org/resource/image/0a/4e/0a03a1e02f4a4bee36989b5a8183274e.jpg",
+          "product_count": 11,
+          "redirect_vars": {
+            "path_id": 3
+          },
+          "redirect_type": "urlscheme",
+          "score": 87482214298,
+          "total_sub_count": 339356
+        },
+        {
+          "id": 7279,
+          "redirect_param": "time://nativeWebView?url=https://time.geekbang.org/learning/path-detail/7&canHiddenNavigationBarBackgroundView=1",
+          "name": "Python工程师",
+          "icon": "https://static001.geekbang.org/resource/image/d6/18/d6cc801441d3a8ed981e2b2665d84518.jpg",
+          "product_count": 19,
+          "redirect_vars": {
+            "path_id": 7
+          },
+          "redirect_type": "urlscheme",
+          "score": 44532571048,
+          "total_sub_count": 355173
+        },
+        {
+          "id": 7356,
+          "redirect_param": "time://nativeWebView?url=https://time.geekbang.org/learning/path-detail/6&canHiddenNavigationBarBackgroundView=1",
+          "name": "测试工程师",
+          "icon": "https://static001.geekbang.org/resource/image/d9/1c/d939189d3152c6d408d2408013608d1c.jpg",
+          "product_count": 16,
+          "redirect_vars": {
+            "path_id": 6
+          },
+          "redirect_type": "urlscheme",
+          "score": 18763177725,
+          "total_sub_count": 237427
+        }
+      ],
+      "nav_id": 0,
+      "block_title": "学习路径",
+      "product_type": "b21",
+      "page": {
+        "count": 5,
+        "more": false
+      },
+      "block_name": "lecture_path",
+      "block_type": 21,
+      "block_id": 60
+    },
+    {
+      "list": [
+        {
+          "score": 23752795907680,
+          "banner_title": "7.20第一轮播图 下午-技术管理",
+          "banner_redirect_type": "product",
+          "id": 14515,
+          "banner_utm_term": "banner4796",
+          "extra": {
+            "column_sku": "100014301",
+            "column_type": 1,
+            "column_id": 113,
+            "product_type": "c1",
+            "had_sub": false
+          },
+          "banner_redirect_param": "100014301",
+          "banner_cover": "https://static001.geekbang.org/resource/image/f4/35/f4069fa6yyafe04ca4bda02e5b9f3435.jpg"
+        },
+        {
+          "score": 23748500940384,
+          "banner_title": "7.20第二轮播图 下午-容器",
+          "banner_redirect_type": "product",
+          "id": 14516,
+          "banner_utm_term": "banner4798",
+          "extra": {
+            "column_sku": "100063801",
+            "column_type": 1,
+            "column_id": 365,
+            "product_type": "c1",
+            "had_sub": false
+          },
+          "banner_redirect_param": "100063801",
+          "banner_cover": "https://static001.geekbang.org/resource/image/93/0a/9394dc9538b218edf13406db7392100a.jpg"
+        },
+        {
+          "banner_redirect_param": "https://time.geekbang.org/activity/promo?page_name=page_3",
+          "banner_cover": "https://static001.geekbang.org/resource/image/34/e2/3496b3ca22028a785bb7f63500dd4de2.jpg",
+          "id": 14505,
+          "banner_utm_term": "banner4799",
+          "score": 23744205922688,
+          "banner_redirect_type": "url",
+          "banner_title": "7.20第三轮播图-增长"
+        },
+        {
+          "banner_redirect_param": "352518",
+          "banner_cover": "https://static001.geekbang.org/resource/image/87/be/87a313e65818d1560de0f48b001yy3be.png",
+          "id": 14506,
+          "banner_utm_term": "banner4800",
+          "score": 23739910955392,
+          "banner_redirect_type": "article",
+          "banner_title": "7.20第四轮播图-go"
+        },
+        {
+          "banner_redirect_param": "https://b.geekbang.org/article/367975?utm_source=geektime&utm_medium=app&utm_campaign=zhiji",
+          "banner_cover": "https://static001.geekbang.org/resource/image/f2/bc/f20b8b24f3yy975706abe1734710f2bc.jpg",
+          "id": 14503,
+          "banner_utm_term": "banner4750",
+          "score": 23735615988096,
+          "banner_redirect_type": "url",
+          "banner_title": "7.20第五轮播图-企业知己测评"
+        }
+      ],
+      "nav_id": 0,
+      "block_title": "热门推荐",
+      "product_type": "b1",
+      "page": {
+        "count": 5,
+        "more": false
+      },
+      "block_name": "explore_banner",
+      "block_type": 1,
+      "block_id": 8
+    },
+    {
+      "list": [
+        {
+          "id": 14493,
+          "redirect_type": "url",
+          "cover_web": "https://static001.geekbang.org/resource/image/db/31/db65927bd37b99b14a8438145c38c831.jpg",
+          "score": 383878713344,
+          "redirect_param": "https://cic.qingcloud.com/index?channel=jikeshijian"
+        }
+      ],
+      "nav_id": 0,
+      "block_title": "活动推荐",
+      "product_type": "b19",
+      "page": {
+        "count": 1,
+        "more": false
+      },
+      "block_name": "cm_web_lecture_ad001",
+      "block_type": 19,
+      "block_id": 81
+    },
+    {
+      "list": [
+        {
+          "live_cover": "https://static001.geekbang.org/resource/image/cc/41/cc580325431208yy67f8e0a376cc0841.jpg",
+          "live_guest": "史海峰｜贝壳金服小微企业生态 CTO",
+          "id": 14451,
+          "live_url": "https://live.geekbang.org/room/992?utm_source=app&utm_medium=geeklive&utm_campaign=promotion&utm_content=live",
+          "live_id": 992,
+          "subed": false,
+          "live_title": "大厂招聘时，技术面试官最喜欢什么样的候选人？",
+          "score": 521317422016,
+          "live_start": 1626782400,
+          "live_status": 3
+        },
+        {
+          "live_cover": "https://static001.geekbang.org/resource/image/40/46/4013843dedaf2278ebf3152e2311bb46.jpg",
+          "live_guest": "覃超｜前 Facebook 工程师",
+          "id": 14501,
+          "live_url": "https://live.geekbang.org/room/1001?utm_source=app&utm_medium=geeklive&utm_campaign=promotion&utm_content=live",
+          "live_id": 1001,
+          "subed": false,
+          "live_title": "阿里、字节等大厂如何考察数据结构与算法？",
+          "score": 517022710320,
+          "live_start": 1626868800,
+          "live_status": 1
+        },
+        {
+          "live_cover": "https://static001.geekbang.org/resource/image/51/af/512806f62f79af3eb83f039eb42fbeaf.jpg",
+          "live_guest": "云原生开放日｜3 位专家详解云原生趋势",
+          "id": 14500,
+          "live_url": "https://live.geekbang.org/room/999?utm_source=app&utm_medium=geeklive&utm_campaign=promotion&utm_content=live",
+          "live_id": 999,
+          "subed": false,
+          "live_title": "Kubernetes，风口上的技术",
+          "score": 452598200880,
+          "live_start": 1627214400,
+          "live_status": 1
+        }
+      ],
+      "block_title": "极客Live",
+      "page": {
+        "count": 7,
+        "more": true
+      },
+      "block_type": 5,
+      "nav_id": 0,
+      "more": {
+        "count": 7
+      },
+      "block_id": 9,
+      "block_name": "hot_live",
+      "product_type": "b5"
+    },
+    {
+      "list": [
+        {
+          "id": 14108,
+          "redirect_type": "urlscheme",
+          "cover_web": "https://static001.geekbang.org/resource/image/be/99/bec207f86857b28d65ffa8f7091cd599.png",
+          "score": 66049146240,
+          "redirect_param": "time://mall?url=https%3A%2F%2Fshop18793264.m.youzan.com%2Fwscgoods%2Fdetail%2F27cl9k4woq95k%3Fscan%3D1%26activity%3Dnone%26from%3Dkdt%26qr%3Ddirectgoods_982256518%26shopAutoEnter%3D1"
+        }
+      ],
+      "nav_id": 0,
+      "block_title": "商城活动",
+      "product_type": "b19",
+      "page": {
+        "count": 1,
+        "more": false
+      },
+      "block_name": "cm_web_lecture_ad002",
+      "block_type": 19,
+      "block_id": 82
+    },
+    {
+      "list": [
+        {
+          "redirect_type": "url",
+          "score": 21768520966528,
+          "id": 14519,
+          "redirect_param": "https://b.geekbang.org/article/367975?utm_source=geektime&utm_medium=tonglan&utm_campaign=zhiji",
+          "cover_web": "https://static001.geekbang.org/resource/image/ab/ac/ab3c61a773d59e1c52aaa243a876daac.png",
+          "cover": "https://static001.geekbang.org/resource/image/e7/38/e74f1ba88a3b5642a94ff33c660b4538.jpg",
+          "cover_web_bg": "https://static001.geekbang.org/resource/image/b6/af/b6b3ee67dc94e6fc375181c77b0b2baf.jpg"
+        }
+      ],
+      "nav_id": 0,
+      "block_title": "底栏",
+      "product_type": "b19",
+      "page": {
+        "count": 2,
+        "more": true
+      },
+      "block_name": "ad_bottom",
+      "block_type": 19,
+      "block_id": 80
+    }
+  ],
+  "code": 0
+}
