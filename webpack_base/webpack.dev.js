@@ -3,7 +3,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const glob = require("glob");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const setMPA = () => {
@@ -81,6 +81,9 @@ module.exports = {
     ],
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      process: "process/browser",
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new CleanWebpackPlugin(),
   ].concat(htmlWebpackPlugin),
